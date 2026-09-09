@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight, MapPin, Building2 } from "lucide-react";
+import Container from "./Container";
 
 const projects = [
   {
@@ -36,7 +37,7 @@ const filters = ["All", "Civil", "Construction", "Infrastructure", "Supply"];
 export default function FeaturedProjectsPreview() {
   return (
     <section className="py-16 md:py-24 bg-charcoal">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -127,7 +128,7 @@ export default function FeaturedProjectsPreview() {
             View All Projects <ArrowRight size={14} />
           </Link>
         </motion.div>
-      </div>
+      </Container>
     </section>
   );
 }

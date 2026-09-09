@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Container from "./Container";
 
 export default function HeroSection() {
   return (
@@ -30,7 +31,7 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <Container size="medium" className="relative z-10 text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -122,9 +123,7 @@ export default function HeroSection() {
             </Link>
           </motion.div>
         </motion.div>
-      </div>
-
-      {/* Scroll indicator */}
+      </Container>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

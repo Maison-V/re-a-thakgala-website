@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Container from "./Container";
 
 export default function CTASection() {
   return (
@@ -15,7 +16,7 @@ export default function CTASection() {
         }}
       />
 
-      <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 text-center">
+      <Container size="narrow" className="relative z-10 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +51,7 @@ export default function CTASection() {
             </Link>
           </div>
         </motion.div>
-      </div>
+      </Container>
     </section>
   );
 }

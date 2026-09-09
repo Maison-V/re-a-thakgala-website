@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Container from "./Container";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -24,7 +25,7 @@ const legalLinks = [
 export default function Footer() {
   return (
     <footer className="bg-charcoal border-t border-graphite">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <Container className="py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
@@ -119,7 +120,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} RE A Thakgala Trading Enterprise. All rights reserved.
           </p>
         </div>
-      </div>
+      </Container>
     </footer>
   );
 }

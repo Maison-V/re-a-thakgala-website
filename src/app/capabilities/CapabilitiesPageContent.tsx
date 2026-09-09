@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Shield, Award, HardHat, Handshake, Cog, Target } from "lucide-react";
 import CTASection from "@/components/CTASection";
+import Container from "@/components/Container";
 
 const capabilities = [
   {
@@ -49,7 +50,7 @@ export default function CapabilitiesPageContent() {
       {/* Hero */}
       <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <Container className="relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -63,12 +64,12 @@ export default function CapabilitiesPageContent() {
             </h1>
             <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
           </motion.div>
-        </div>
+        </Container>
       </section>
 
       {/* Capabilities Grid */}
       <section className="py-16 md:py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {capabilities.map((cap, i) => (
               <motion.div
@@ -93,7 +94,7 @@ export default function CapabilitiesPageContent() {
               </motion.div>
             ))}
           </div>
-        </div>
+        </Container>
       </section>
 
       <CTASection />

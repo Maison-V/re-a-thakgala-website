@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MapPin, Building2, ArrowRight } from "lucide-react";
 import CTASection from "@/components/CTASection";
+import Container from "@/components/Container";
 
 const projects = [
   {
@@ -71,7 +72,7 @@ export default function ProjectsPageContent() {
       {/* Hero */}
       <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <Container className="relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -85,12 +86,12 @@ export default function ProjectsPageContent() {
             </h1>
             <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
           </motion.div>
-        </div>
+        </Container>
       </section>
 
       {/* Filters + Grid */}
       <section className="py-16 md:py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container>
           <div className="flex flex-wrap justify-center gap-2 mb-12">
             {categories.map((c) => (
               <button
@@ -158,7 +159,7 @@ export default function ProjectsPageContent() {
               ))}
             </motion.div>
           </AnimatePresence>
-        </div>
+        </Container>
       </section>
 
       <CTASection />

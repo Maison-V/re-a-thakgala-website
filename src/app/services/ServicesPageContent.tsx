@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { HardHat, Building2, Package, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import CTASection from "@/components/CTASection";
+import Container from "@/components/Container";
 
 const civilServices = [
   { name: "Earthworks", desc: "Excavation, fill placement and site grading" },
@@ -56,7 +57,7 @@ function ServiceDivision({
 }) {
   return (
     <section id={id} className="py-16 md:py-24 bg-obsidian scroll-mt-16 md:scroll-mt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 ${reverse ? "lg:direction-rtl" : ""}`}>
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -111,7 +112,7 @@ function ServiceDivision({
             </div>
           </motion.div>
         </div>
-      </div>
+      </Container>
     </section>
   );
 }
@@ -122,7 +123,7 @@ export default function ServicesPageContent() {
       {/* Hero */}
       <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <Container className="relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -140,7 +141,7 @@ export default function ServicesPageContent() {
               delivered with professionalism, quality and safety.
             </p>
           </motion.div>
-        </div>
+        </Container>
       </section>
 
       <ServiceDivision

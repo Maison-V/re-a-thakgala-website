@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/SectionHeading";
 import CTASection from "@/components/CTASection";
+import Container from "@/components/Container";
 
 export default function AboutPageContent() {
   return (
@@ -10,7 +11,7 @@ export default function AboutPageContent() {
       {/* Hero */}
       <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <Container className="relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -26,12 +27,12 @@ export default function AboutPageContent() {
             </h1>
             <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
           </motion.div>
-        </div>
+        </Container>
       </section>
 
       {/* Company intro */}
       <section className="py-16 md:py-24 bg-charcoal">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -51,12 +52,12 @@ export default function AboutPageContent() {
               service and consistent delivery.
             </p>
           </motion.div>
-        </div>
+        </Container>
       </section>
 
       {/* Managing Director */}
       <section className="py-16 md:py-24 bg-obsidian">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <motion.div
               initial={{ opacity: 0, x: -40 }}
@@ -111,7 +112,7 @@ export default function AboutPageContent() {
               </div>
             </motion.div>
           </div>
-        </div>
+        </Container>
       </section>
 
       <CTASection />

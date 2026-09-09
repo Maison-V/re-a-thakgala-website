@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { HardHat, Building2, Package, ClipboardCheck } from "lucide-react";
+import Container from "./Container";
 
 const capabilities = [
   {
@@ -29,7 +30,7 @@ const capabilities = [
 export default function CapabilityBar() {
   return (
     <section className="relative bg-charcoal border-y border-graphite">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {capabilities.map((cap, i) => (
             <motion.div
@@ -48,7 +49,7 @@ export default function CapabilityBar() {
             </motion.div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

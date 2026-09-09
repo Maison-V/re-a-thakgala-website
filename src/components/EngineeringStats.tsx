@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
+import Container from "./Container";
 
 function useCountUp(end: number, duration: number = 2000) {
   const [count, setCount] = useState(0);
@@ -53,7 +54,7 @@ export default function EngineeringStats() {
       {/* Background grid */}
       <div className="absolute inset-0 engineering-grid opacity-50" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container className="relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +95,7 @@ export default function EngineeringStats() {
             );
           })}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

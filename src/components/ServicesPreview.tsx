@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight, HardHat, Building2, Package } from "lucide-react";
+import Container from "./Container";
 
 const services = [
   {
@@ -37,7 +38,7 @@ const services = [
 export default function ServicesPreview() {
   return (
     <section className="py-16 md:py-24 bg-charcoal">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <Container>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -96,7 +97,7 @@ export default function ServicesPreview() {
             </motion.div>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   );
 }

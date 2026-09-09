@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Send, User, Building2, Mail, Phone, MapPin, DollarSign, MessageSquare } from "lucide-react";
+import Container from "@/components/Container";
 
 export default function ContactPageContent() {
   const [submitted, setSubmitted] = useState(false);
@@ -17,7 +18,7 @@ export default function ContactPageContent() {
       {/* Hero */}
       <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <Container className="relative z-10 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -33,12 +34,12 @@ export default function ContactPageContent() {
             </h1>
             <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
           </motion.div>
-        </div>
+        </Container>
       </section>
 
       {/* Contact Form + Info */}
       <section className="py-16 md:py-24 bg-charcoal">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <Container>
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
             {/* Form */}
             <motion.div
@@ -263,7 +264,7 @@ export default function ContactPageContent() {
               </div>
             </motion.div>
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );
