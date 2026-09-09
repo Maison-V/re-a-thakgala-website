@@ -13,7 +13,7 @@ const sizes = {
 
 export default function Container({ children, className = "", size = "wide" }: Props) {
   return (
-    <div className={`${sizes[size]} mx-auto px-5 sm:px-8 lg:px-12 ${className}`}>
+    <div className={`${sizes[size]} mx-auto px-6 sm:px-10 lg:px-16 xl:px-20 ${className}`}>
       {children}
     </div>
   );

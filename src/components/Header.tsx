@@ -32,7 +32,7 @@ export default function Header() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-20">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex flex-col group">
