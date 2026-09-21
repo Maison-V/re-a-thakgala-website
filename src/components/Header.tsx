@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X, ChevronRight } from "lucide-react";
+import Container from "./Container";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -32,7 +33,7 @@ export default function Header() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-20">
+      <Container>
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex flex-col group">
@@ -72,7 +73,7 @@ export default function Header() {
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-      </div>
+      </Container>
 
       {/* Mobile Drawer */}
       <div
