@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, Building2, ArrowRight } from "lucide-react";
+import { MapPin } from "lucide-react";
+import Image from "next/image";
 import CTASection from "@/components/CTASection";
 import Container from "@/components/Container";
 
@@ -14,6 +15,7 @@ const projects = [
     category: "Civil",
     scope: "Full road rehabilitation, stormwater management system and associated civil works including drainage, signage and road markings.",
     status: "Completed",
+    image: "/images/projects/pipeline-install-01.jpg",
   },
   {
     title: "Commercial Building Construction",
@@ -22,6 +24,7 @@ const projects = [
     category: "Construction",
     scope: "Turnkey commercial building including structural works, MEP services, interior fit-out and external works.",
     status: "Completed",
+    image: "/images/projects/brick-building-01.jpg",
   },
   {
     title: "Bulk Water Supply Infrastructure",
@@ -30,6 +33,7 @@ const projects = [
     category: "Infrastructure",
     scope: "Water pipeline network, reservoir construction, pump station installation and commissioning.",
     status: "Completed",
+    image: "/images/projects/water-tanks-01.jpg",
   },
   {
     title: "Residential Complex Development",
@@ -38,6 +42,7 @@ const projects = [
     category: "Construction",
     scope: "Multi-unit residential development including site works, building construction and landscaping.",
     status: "Completed",
+    image: "/images/projects/construction-site-01.jpg",
   },
   {
     title: "Stormwater Management System",
@@ -46,6 +51,7 @@ const projects = [
     category: "Civil",
     scope: "Urban stormwater drainage system design and construction including culverts, channels and retention ponds.",
     status: "Completed",
+    image: "/images/projects/concrete-finishing-01.jpg",
   },
   {
     title: "Construction Materials Supply",
@@ -54,6 +60,7 @@ const projects = [
     category: "Supply",
     scope: "Bulk supply of construction aggregates, cement, steel and related building materials.",
     status: "Completed",
+    image: "/images/projects/concrete-pump-01.jpg",
   },
 ];
 
@@ -125,11 +132,15 @@ export default function ProjectsPageContent() {
                   transition={{ duration: 0.5, delay: i * 0.1 }}
                   className="group bg-graphite border border-graphite-light hover:border-gold/30 transition-all duration-300"
                 >
-                  <div className="aspect-[16/10] bg-gradient-to-br from-graphite via-charcoal to-obsidian relative overflow-hidden">
-                    <div className="absolute inset-0 engineering-grid opacity-40" />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <Building2 className="w-12 h-12 text-gold/20" strokeWidth={1} />
-                    </div>
+                  <div className="aspect-[16/10] relative overflow-hidden">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-obsidian/60 via-transparent to-transparent" />
                     <div className="absolute top-4 right-4 px-3 py-1 bg-gold text-obsidian text-[10px] font-semibold tracking-wider uppercase">
                       {project.status}
                     </div>
