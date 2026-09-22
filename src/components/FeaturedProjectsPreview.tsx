@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, MapPin } from "lucide-react";
 import Container from "./Container";
 
@@ -81,13 +80,11 @@ export default function FeaturedProjectsPreview() {
               className="group bg-graphite border border-graphite-light hover:border-gold/30 transition-all duration-300"
             >
               {/* Project image */}
-              <div className="aspect-[16/10] relative overflow-hidden">
-                <Image
+              <div className="relative w-full aspect-[16/10] overflow-hidden bg-graphite">
+                <img
                   src={project.image}
                   alt={project.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-obsidian/60 via-transparent to-transparent" />
                 {/* Status badge */}
