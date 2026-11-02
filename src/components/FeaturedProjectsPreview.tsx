@@ -59,7 +59,7 @@ export default function FeaturedProjectsPreview() {
           {filters.map((f) => (
             <button
               key={f}
-              className="px-4 py-2 text-[10px] tracking-[0.2em] uppercase border border-graphite-light text-silver-dark hover:border-gold hover:text-gold transition-all"
+              className="px-4 py-2 text-[0.625rem] tracking-[0.2em] uppercase border border-graphite-light text-silver-dark hover:border-gold hover:text-gold transition-all"
             >
               {f}
             </button>
@@ -83,7 +83,7 @@ export default function FeaturedProjectsPreview() {
                   <Building2 className="w-12 h-12 text-gold/20" strokeWidth={1} />
                 </div>
                 {/* Status badge */}
-                <div className="absolute top-4 right-4 px-3 py-1 bg-gold text-obsidian text-[10px] font-semibold tracking-wider uppercase">
+                <div className="absolute top-4 right-4 px-3 py-1 bg-gold text-obsidian text-[0.625rem] font-semibold tracking-wider uppercase">
                   {project.status}
                 </div>
                 {/* Gold corner */}
@@ -91,7 +91,7 @@ export default function FeaturedProjectsPreview() {
               </div>
 
               <div className="p-6">
-                <span className="font-heading text-[10px] tracking-[0.2em] text-gold uppercase">
+                <span className="font-heading text-[0.625rem] tracking-[0.2em] text-gold uppercase">
                   {project.category}
                 </span>
                 <h3 className="font-heading text-lg tracking-wider text-white uppercase mt-2 mb-3">
@@ -105,7 +105,7 @@ export default function FeaturedProjectsPreview() {
                   {project.scope}
                 </p>
                 <div className="pt-4 border-t border-graphite-light">
-                  <span className="text-[10px] tracking-wider uppercase text-silver-dark">
+                  <span className="text-[0.625rem] tracking-wider uppercase text-silver-dark">
                     Client: {project.client}
                   </span>
                 </div>

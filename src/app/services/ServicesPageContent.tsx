@@ -104,7 +104,7 @@ function ServiceDivision({
                   <h4 className="font-heading text-xs tracking-[0.15em] text-white uppercase mb-2">
                     {s.name}
                   </h4>
-                  <p className="text-[11px] text-silver-dark leading-relaxed">
+                  <p className="text-[0.6875rem] text-silver-dark leading-relaxed">
                     {s.desc}
                   </p>
                 </motion.div>
