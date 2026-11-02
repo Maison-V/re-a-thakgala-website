@@ -62,7 +62,7 @@ export default function ProfilePageContent() {
                   <span className="font-heading text-lg tracking-[0.15em] text-white block">
                     RE A THAKGALA
                   </span>
-                  <span className="font-heading text-[0.625rem] tracking-[0.3em] text-gold uppercase">
+                  <span className="font-heading text-[10px] tracking-[0.3em] text-gold uppercase">
                     Trading Enterprise
                   </span>
                 </div>

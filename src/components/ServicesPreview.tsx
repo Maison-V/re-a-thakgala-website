@@ -82,7 +82,7 @@ export default function ServicesPreview() {
                 {service.items.map((item) => (
                   <span
                     key={item}
-                    className="px-3 py-1 text-[0.625rem] tracking-wider uppercase border border-graphite-light text-silver-dark"
+                    className="px-3 py-1 text-[10px] tracking-wider uppercase border border-graphite-light text-silver-dark"
                   >
                     {item}
                   </span>

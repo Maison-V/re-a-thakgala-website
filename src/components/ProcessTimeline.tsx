@@ -97,7 +97,7 @@ export default function ProcessTimeline() {
                 className="relative"
               >
                 <div className="absolute -left-8 top-0 w-6 h-6 bg-obsidian border-2 border-gold rounded-sm flex items-center justify-center">
-                  <span className="font-heading text-[0.625rem] font-bold text-gold">
+                  <span className="font-heading text-[10px] font-bold text-gold">
                     {step.number}
                   </span>
                 </div>

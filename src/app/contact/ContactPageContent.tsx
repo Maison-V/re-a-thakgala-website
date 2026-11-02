@@ -70,7 +70,7 @@ export default function ContactPageContent() {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                      <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Full Name *
                       </label>
                       <input
@@ -81,7 +81,7 @@ export default function ContactPageContent() {
                       />
                     </div>
                     <div>
-                      <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Company
                       </label>
                       <input
@@ -94,7 +94,7 @@ export default function ContactPageContent() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                      <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Email *
                       </label>
                       <input
@@ -105,7 +105,7 @@ export default function ContactPageContent() {
                       />
                     </div>
                     <div>
-                      <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Telephone
                       </label>
                       <input
@@ -118,7 +118,7 @@ export default function ContactPageContent() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                      <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Project Type
                       </label>
                       <select className="w-full px-4 py-3 bg-graphite border border-graphite-light text-silver text-sm focus:border-gold focus:outline-none transition-colors">
@@ -130,7 +130,7 @@ export default function ContactPageContent() {
                       </select>
                     </div>
                     <div>
-                      <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Project Location
                       </label>
                       <input
@@ -142,7 +142,7 @@ export default function ContactPageContent() {
                   </div>
 
                   <div>
-                    <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                    <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                       Estimated Budget
                     </label>
                     <select className="w-full px-4 py-3 bg-graphite border border-graphite-light text-silver text-sm focus:border-gold focus:outline-none transition-colors">
@@ -156,7 +156,7 @@ export default function ContactPageContent() {
                   </div>
 
                   <div>
-                    <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                    <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                       Message *
                     </label>
                     <textarea
@@ -168,7 +168,7 @@ export default function ContactPageContent() {
                   </div>
 
                   <div>
-                    <label className="font-heading text-[0.625rem] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                    <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                       Attachment
                     </label>
                     <input

@@ -16,19 +16,18 @@
 }
 
 :root {
-  --header-h: 4rem;
+  --header-h: 64px;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
   :root {
-    --header-h: 5rem;
+    --header-h: 80px;
   }
 }
 
 html {
-  font-size: 112.5%;
   scroll-behavior: smooth;
-  scroll-padding-top: calc(var(--header-h) + 1rem);
+  scroll-padding-top: calc(var(--header-h) + 16px);
 }
 
 body {
