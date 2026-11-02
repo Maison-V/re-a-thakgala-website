@@ -30,7 +30,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-6">
-              <span className="font-heading text-2xl font-bold tracking-[0.15em] text-white block leading-tight">
+              <span className="font-heading text-2xl font-bold tracking-[0.15em] text-white block leading-snug">
                 RE A THAKGALA
               </span>
               <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase">
