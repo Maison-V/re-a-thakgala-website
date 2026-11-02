@@ -30,10 +30,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="mb-6">
-              <span className="font-[family-name:var(--font-oswald)] text-2xl font-bold tracking-[0.15em] text-white block leading-tight">
+              <span className="font-heading text-2xl font-bold tracking-[0.15em] text-white block leading-tight">
                 RE A THAKGALA
               </span>
-              <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase">
+              <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase">
                 Trading Enterprise
               </span>
             </div>
@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="font-[family-name:var(--font-oswald)] text-sm tracking-[0.2em] text-white uppercase mb-6">
+            <h4 className="font-heading text-sm tracking-[0.2em] text-white uppercase mb-6">
               Navigation
             </h4>
             <ul className="space-y-3">
@@ -64,7 +64,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-[family-name:var(--font-oswald)] text-sm tracking-[0.2em] text-white uppercase mb-6">
+            <h4 className="font-heading text-sm tracking-[0.2em] text-white uppercase mb-6">
               Services
             </h4>
             <ul className="space-y-3">
@@ -83,7 +83,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-[family-name:var(--font-oswald)] text-sm tracking-[0.2em] text-white uppercase mb-6">
+            <h4 className="font-heading text-sm tracking-[0.2em] text-white uppercase mb-6">
               Contact
             </h4>
             <div className="space-y-3 text-sm text-silver-dark">

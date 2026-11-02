@@ -62,10 +62,10 @@ export default function EngineeringStats() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+          <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
             Track Record
           </span>
-          <h2 className="font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase">
             Engineering Statistics
           </h2>
           <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
@@ -84,11 +84,11 @@ export default function EngineeringStats() {
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="text-center py-8 border border-graphite bg-graphite/30"
               >
-                <div className="font-[family-name:var(--font-oswald)] text-4xl sm:text-5xl md:text-6xl font-bold text-gold">
+                <div className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold text-gold">
                   {count}
                   <span className="text-gold">{stat.suffix}</span>
                 </div>
-                <div className="mt-3 font-[family-name:var(--font-oswald)] text-xs tracking-[0.2em] text-silver-dark uppercase">
+                <div className="mt-3 font-heading text-xs tracking-[0.2em] text-silver-dark uppercase">
                   {stat.label}
                 </div>
               </motion.div>

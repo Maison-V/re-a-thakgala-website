@@ -15,10 +15,10 @@ export default function AboutPreview() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+            <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
               About Us
             </span>
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase leading-tight">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase leading-tight">
               Engineering with Purpose.
               <br />
               <span className="text-gold">Construction with Precision.</span>
@@ -62,7 +62,7 @@ export default function AboutPreview() {
                       <div className="w-2 h-2 bg-gold rounded-full" />
                     </div>
                   </div>
-                  <span className="font-[family-name:var(--font-oswald)] text-sm tracking-[0.2em] text-gold/60 uppercase">
+                  <span className="font-heading text-sm tracking-[0.2em] text-gold/60 uppercase">
                     Company Image
                   </span>
                 </div>

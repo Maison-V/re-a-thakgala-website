@@ -42,10 +42,10 @@ export default function ProcessTimeline() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+          <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
             How We Work
           </span>
-          <h2 className="font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase">
             Project Delivery Process
           </h2>
           <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
@@ -68,11 +68,11 @@ export default function ProcessTimeline() {
               >
                 {/* Node */}
                 <div className="relative z-10 w-16 h-16 mx-auto bg-obsidian border-2 border-gold rounded-sm flex items-center justify-center mb-6">
-                  <span className="font-[family-name:var(--font-oswald)] text-lg font-bold text-gold">
+                  <span className="font-heading text-lg font-bold text-gold">
                     {step.number}
                   </span>
                 </div>
-                <h3 className="font-[family-name:var(--font-oswald)] text-sm tracking-[0.2em] text-white uppercase mb-3">
+                <h3 className="font-heading text-sm tracking-[0.2em] text-white uppercase mb-3">
                   {step.title}
                 </h3>
                 <p className="text-xs text-silver-dark leading-relaxed px-2">
@@ -97,11 +97,11 @@ export default function ProcessTimeline() {
                 className="relative"
               >
                 <div className="absolute -left-8 top-0 w-6 h-6 bg-obsidian border-2 border-gold rounded-sm flex items-center justify-center">
-                  <span className="font-[family-name:var(--font-oswald)] text-[10px] font-bold text-gold">
+                  <span className="font-heading text-[10px] font-bold text-gold">
                     {step.number}
                   </span>
                 </div>
-                <h3 className="font-[family-name:var(--font-oswald)] text-sm tracking-[0.2em] text-white uppercase mb-2">
+                <h3 className="font-heading text-sm tracking-[0.2em] text-white uppercase mb-2">
                   {step.title}
                 </h3>
                 <p className="text-xs text-silver-dark leading-relaxed">

@@ -51,7 +51,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="font-[family-name:var(--font-oswald)] text-xs sm:text-sm tracking-[0.4em] text-gold uppercase block mb-4"
+            className="font-heading text-xs sm:text-sm tracking-[0.4em] text-gold uppercase block mb-4"
           >
             Civil Engineering &middot; Construction &middot; Supply &amp; Trade
           </motion.span>
@@ -60,7 +60,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="font-[family-name:var(--font-oswald)] text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-[0.1em] text-white leading-[0.9]"
+            className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-[0.1em] text-white leading-[0.9]"
           >
             RE A THAKGALA
           </motion.h1>
@@ -69,7 +69,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="font-[family-name:var(--font-oswald)] text-lg sm:text-xl md:text-2xl tracking-[0.25em] text-gold mt-2"
+            className="font-heading text-lg sm:text-xl md:text-2xl tracking-[0.25em] text-gold mt-2"
           >
             TRADING ENTERPRISE
           </motion.h2>
@@ -87,7 +87,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.9 }}
-            className="font-[family-name:var(--font-oswald)] text-base sm:text-lg md:text-xl tracking-[0.15em] text-silver-dark mt-6 uppercase"
+            className="font-heading text-base sm:text-lg md:text-xl tracking-[0.15em] text-silver-dark mt-6 uppercase"
           >
             Building Today for a Stronger Tomorrow
           </motion.p>

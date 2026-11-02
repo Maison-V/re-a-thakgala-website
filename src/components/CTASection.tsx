@@ -23,10 +23,10 @@ export default function CTASection() {
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
         >
-          <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+          <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
             Start Your Project
           </span>
-          <h2 className="font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase leading-tight">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase leading-tight">
             Let&apos;s Build Something
             <br />
             <span className="text-gold">That Lasts.</span>

@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import SectionHeading from "@/components/SectionHeading";
 import CTASection from "@/components/CTASection";
 import Container from "@/components/Container";
 
@@ -9,7 +8,7 @@ export default function AboutPageContent() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-24 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
         <Container className="relative z-10 text-center">
           <motion.div
@@ -17,10 +16,10 @@ export default function AboutPageContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+            <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
               About Us
             </span>
-            <h1 className="font-[family-name:var(--font-oswald)] text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
               Engineering with Purpose.
               <br />
               <span className="text-gold">Construction with Precision.</span>
@@ -65,14 +64,14 @@ export default function AboutPageContent() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+              <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
                 Leadership
               </span>
-              <h2 className="font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl font-bold tracking-wide text-white uppercase">
+              <h2 className="font-heading text-3xl sm:text-4xl font-bold tracking-wide text-white uppercase">
                 Managing Director
               </h2>
               <div className="mt-4 w-16 h-0.5 bg-gold" />
-              <p className="mt-6 font-[family-name:var(--font-oswald)] text-xl text-gold tracking-wider">
+              <p className="mt-6 font-heading text-xl text-gold tracking-wider">
                 Ruloff Davis
               </p>
               <p className="mt-2 text-xs tracking-[0.2em] text-silver-dark uppercase">
@@ -99,7 +98,7 @@ export default function AboutPageContent() {
                     <div className="w-24 h-24 mx-auto border-2 border-gold/30 rounded-sm flex items-center justify-center mb-4">
                       <div className="w-14 h-14 border border-gold/20 rounded-full bg-graphite-light" />
                     </div>
-                    <span className="font-[family-name:var(--font-oswald)] text-sm tracking-[0.2em] text-gold/60 uppercase">
+                    <span className="font-heading text-sm tracking-[0.2em] text-gold/60 uppercase">
                       Portrait
                     </span>
                   </div>

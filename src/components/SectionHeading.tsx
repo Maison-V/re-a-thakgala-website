@@ -14,14 +14,14 @@ export default function SectionHeading({
   light = false,
 }: Props) {
   return (
-    <div className={`mb-12 md:mb-16 ${align === "center" ? "text-center" : "text-left"}`}>
+    <div className={`mb-16 ${align === "center" ? "text-center" : "text-left"}`}>
       {label && (
-        <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+        <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
           {label}
         </span>
       )}
       <h2
-        className={`font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide uppercase ${
+        className={`font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide uppercase ${
           light ? "text-white" : "text-white"
         }`}
       >
