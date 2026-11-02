@@ -24,7 +24,7 @@ export default function ProfilePageContent() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-24 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
         <Container className="relative z-10 text-center">
           <motion.div
@@ -32,10 +32,10 @@ export default function ProfilePageContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+            <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
               Company Profile
             </span>
-            <h1 className="font-[family-name:var(--font-oswald)] text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
               Company Information
             </h1>
             <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
@@ -59,10 +59,10 @@ export default function ProfilePageContent() {
                 <div className="absolute inset-0 engineering-grid opacity-30" />
                 <div className="relative text-center">
                   <Building2 className="w-16 h-16 text-gold/30 mx-auto mb-4" strokeWidth={1} />
-                  <span className="font-[family-name:var(--font-oswald)] text-lg tracking-[0.15em] text-white block">
+                  <span className="font-heading text-lg tracking-[0.15em] text-white block">
                     RE A THAKGALA
                   </span>
-                  <span className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.3em] text-gold uppercase">
+                  <span className="font-heading text-[10px] tracking-[0.3em] text-gold uppercase">
                     Trading Enterprise
                   </span>
                 </div>
@@ -101,7 +101,7 @@ export default function ProfilePageContent() {
                       i !== infoRows.length - 1 ? "border-b border-graphite-light" : ""
                     }`}
                   >
-                    <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.15em] text-gold uppercase w-48 flex-shrink-0 mb-1 sm:mb-0">
+                    <span className="font-heading text-xs tracking-[0.15em] text-gold uppercase w-48 flex-shrink-0 mb-1 sm:mb-0">
                       {row.label}
                     </span>
                     <span className="text-sm text-silver">{row.value}</span>

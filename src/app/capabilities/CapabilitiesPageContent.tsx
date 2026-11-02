@@ -48,7 +48,7 @@ export default function CapabilitiesPageContent() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-24 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
         <Container className="relative z-10 text-center">
           <motion.div
@@ -56,10 +56,10 @@ export default function CapabilitiesPageContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+            <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
               Why Choose Us
             </span>
-            <h1 className="font-[family-name:var(--font-oswald)] text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
               Why RE A Thakgala?
             </h1>
             <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
@@ -84,7 +84,7 @@ export default function CapabilitiesPageContent() {
                   className="w-10 h-10 text-gold mb-6"
                   strokeWidth={1.5}
                 />
-                <h3 className="font-[family-name:var(--font-oswald)] text-lg tracking-[0.15em] text-white uppercase mb-4">
+                <h3 className="font-heading text-lg tracking-[0.15em] text-white uppercase mb-4">
                   {cap.title}
                 </h3>
                 <p className="text-sm text-silver-dark leading-relaxed">

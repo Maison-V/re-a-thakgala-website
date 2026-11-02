@@ -36,10 +36,10 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex flex-col group">
-            <span className="font-[family-name:var(--font-oswald)] text-xl sm:text-2xl font-bold tracking-[0.15em] text-white leading-tight">
+            <span className="font-heading text-xl sm:text-2xl font-bold tracking-[0.15em] text-white leading-tight">
               RE A THAKGALA
             </span>
-            <span className="font-[family-name:var(--font-oswald)] text-[10px] sm:text-xs tracking-[0.3em] text-gold uppercase">
+            <span className="font-heading text-[10px] sm:text-xs tracking-[0.3em] text-gold uppercase">
               Trading Enterprise
             </span>
           </Link>
@@ -50,7 +50,7 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-xs tracking-wider uppercase text-silver-dark hover:text-gold transition-colors font-[family-name:var(--font-body)]"
+                className="px-3 py-2 text-xs tracking-wider uppercase text-silver-dark hover:text-gold transition-colors font-body"
               >
                 {link.label}
               </Link>
@@ -89,7 +89,7 @@ export default function Header() {
               onClick={() => setMobileOpen(false)}
               className="flex items-center justify-between w-full py-4 border-b border-graphite text-silver hover:text-gold transition-colors"
             >
-              <span className="font-[family-name:var(--font-oswald)] text-lg tracking-wider uppercase">
+              <span className="font-heading text-lg tracking-wider uppercase">
                 {link.label}
               </span>
               <ChevronRight size={16} className="text-gold" />

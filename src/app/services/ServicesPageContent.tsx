@@ -66,13 +66,13 @@ function ServiceDivision({
             transition={{ duration: 0.7 }}
           >
             <div className="flex items-center gap-4 mb-6">
-              <span className="font-[family-name:var(--font-oswald)] text-4xl font-bold text-gold/20">
+              <span className="font-heading text-4xl font-bold text-gold/20">
                 {number}
               </span>
               <div className="w-px h-12 bg-gold/30" />
               <Icon className="w-10 h-10 text-gold" strokeWidth={1.5} />
             </div>
-            <h2 className="font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl font-bold tracking-wide text-white uppercase">
+            <h2 className="font-heading text-3xl sm:text-4xl font-bold tracking-wide text-white uppercase">
               {title}
             </h2>
             <div className="mt-4 w-16 h-0.5 bg-gold" />
@@ -101,7 +101,7 @@ function ServiceDivision({
                   transition={{ duration: 0.4, delay: i * 0.05 }}
                   className="p-4 bg-graphite border border-graphite-light hover:border-gold/30 transition-all group"
                 >
-                  <h4 className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.15em] text-white uppercase mb-2">
+                  <h4 className="font-heading text-xs tracking-[0.15em] text-white uppercase mb-2">
                     {s.name}
                   </h4>
                   <p className="text-[11px] text-silver-dark leading-relaxed">
@@ -121,7 +121,7 @@ export default function ServicesPageContent() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-24 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
         <Container className="relative z-10 text-center">
           <motion.div
@@ -129,10 +129,10 @@ export default function ServicesPageContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+            <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
               What We Do
             </span>
-            <h1 className="font-[family-name:var(--font-oswald)] text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
               Our Services
             </h1>
             <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />

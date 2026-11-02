@@ -42,7 +42,7 @@ export default function CapabilityBar() {
               className="py-10 px-6 border-b sm:border-b-0 sm:border-r last:border-r-0 border-graphite group hover:bg-graphite/30 transition-colors"
             >
               <cap.icon className="w-8 h-8 text-gold mb-4" strokeWidth={1.5} />
-              <h3 className="font-[family-name:var(--font-oswald)] text-sm tracking-[0.2em] text-white uppercase mb-2">
+              <h3 className="font-heading text-sm tracking-[0.2em] text-white uppercase mb-2">
                 {cap.title}
               </h3>
               <p className="text-xs text-silver-dark leading-relaxed">{cap.desc}</p>

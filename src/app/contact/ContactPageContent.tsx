@@ -16,7 +16,7 @@ export default function ContactPageContent() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-24 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
         <Container className="relative z-10 text-center">
           <motion.div
@@ -24,10 +24,10 @@ export default function ContactPageContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+            <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
               Get in Touch
             </span>
-            <h1 className="font-[family-name:var(--font-oswald)] text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
               Let&apos;s Build Something
               <br />
               <span className="text-gold">That Lasts.</span>
@@ -49,7 +49,7 @@ export default function ContactPageContent() {
               transition={{ duration: 0.7 }}
               className="lg:col-span-3"
             >
-              <h2 className="font-[family-name:var(--font-oswald)] text-xl tracking-[0.15em] text-white uppercase mb-8">
+              <h2 className="font-heading text-xl tracking-[0.15em] text-white uppercase mb-8">
                 Submit Your Enquiry
               </h2>
 
@@ -58,7 +58,7 @@ export default function ContactPageContent() {
                   <div className="w-16 h-16 mx-auto bg-gold/10 border border-gold/30 rounded-sm flex items-center justify-center mb-6">
                     <Send className="w-8 h-8 text-gold" />
                   </div>
-                  <h3 className="font-[family-name:var(--font-oswald)] text-lg tracking-wider text-white uppercase mb-3">
+                  <h3 className="font-heading text-lg tracking-wider text-white uppercase mb-3">
                     Enquiry Received
                   </h3>
                   <p className="text-sm text-silver-dark">
@@ -70,7 +70,7 @@ export default function ContactPageContent() {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                      <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Full Name *
                       </label>
                       <input
@@ -81,7 +81,7 @@ export default function ContactPageContent() {
                       />
                     </div>
                     <div>
-                      <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Company
                       </label>
                       <input
@@ -94,7 +94,7 @@ export default function ContactPageContent() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                      <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Email *
                       </label>
                       <input
@@ -105,7 +105,7 @@ export default function ContactPageContent() {
                       />
                     </div>
                     <div>
-                      <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Telephone
                       </label>
                       <input
@@ -118,7 +118,7 @@ export default function ContactPageContent() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                      <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Project Type
                       </label>
                       <select className="w-full px-4 py-3 bg-graphite border border-graphite-light text-silver text-sm focus:border-gold focus:outline-none transition-colors">
@@ -130,7 +130,7 @@ export default function ContactPageContent() {
                       </select>
                     </div>
                     <div>
-                      <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                      <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                         Project Location
                       </label>
                       <input
@@ -142,7 +142,7 @@ export default function ContactPageContent() {
                   </div>
 
                   <div>
-                    <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                    <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                       Estimated Budget
                     </label>
                     <select className="w-full px-4 py-3 bg-graphite border border-graphite-light text-silver text-sm focus:border-gold focus:outline-none transition-colors">
@@ -156,7 +156,7 @@ export default function ContactPageContent() {
                   </div>
 
                   <div>
-                    <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                    <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                       Message *
                     </label>
                     <textarea
@@ -168,7 +168,7 @@ export default function ContactPageContent() {
                   </div>
 
                   <div>
-                    <label className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
+                    <label className="font-heading text-[10px] tracking-[0.2em] text-silver-dark uppercase block mb-2">
                       Attachment
                     </label>
                     <input
@@ -197,7 +197,7 @@ export default function ContactPageContent() {
               className="lg:col-span-2"
             >
               <div className="bg-graphite border border-graphite-light p-8">
-                <h3 className="font-[family-name:var(--font-oswald)] text-lg tracking-[0.15em] text-white uppercase mb-6">
+                <h3 className="font-heading text-lg tracking-[0.15em] text-white uppercase mb-6">
                   Contact Information
                 </h3>
                 <div className="w-8 h-0.5 bg-gold mb-8" />
@@ -206,7 +206,7 @@ export default function ContactPageContent() {
                   <div className="flex items-start gap-4">
                     <User className="w-5 h-5 text-gold mt-0.5" strokeWidth={1.5} />
                     <div>
-                      <p className="font-[family-name:var(--font-oswald)] text-xs tracking-wider text-white uppercase">
+                      <p className="font-heading text-xs tracking-wider text-white uppercase">
                         Ruloff Davis
                       </p>
                       <p className="text-xs text-silver-dark mt-1">Managing Director</p>
@@ -216,7 +216,7 @@ export default function ContactPageContent() {
                   <div className="flex items-start gap-4">
                     <Building2 className="w-5 h-5 text-gold mt-0.5" strokeWidth={1.5} />
                     <div>
-                      <p className="font-[family-name:var(--font-oswald)] text-xs tracking-wider text-white uppercase">
+                      <p className="font-heading text-xs tracking-wider text-white uppercase">
                         RE A Thakgala Trading Enterprise
                       </p>
                       <p className="text-xs text-silver-dark mt-1">Civil Engineering &middot; Construction &middot; Supply &amp; Trade</p>
@@ -226,7 +226,7 @@ export default function ContactPageContent() {
                   <div className="flex items-start gap-4">
                     <MapPin className="w-5 h-5 text-gold mt-0.5" strokeWidth={1.5} />
                     <div>
-                      <p className="font-[family-name:var(--font-oswald)] text-xs tracking-wider text-white uppercase">
+                      <p className="font-heading text-xs tracking-wider text-white uppercase">
                         Location
                       </p>
                       <p className="text-xs text-silver-dark mt-1">South Africa</p>
@@ -236,7 +236,7 @@ export default function ContactPageContent() {
                   <div className="flex items-start gap-4">
                     <Phone className="w-5 h-5 text-gold mt-0.5" strokeWidth={1.5} />
                     <div>
-                      <p className="font-[family-name:var(--font-oswald)] text-xs tracking-wider text-white uppercase">
+                      <p className="font-heading text-xs tracking-wider text-white uppercase">
                         Telephone
                       </p>
                       <p className="text-xs text-silver-dark mt-1">[To Be Supplied]</p>
@@ -246,7 +246,7 @@ export default function ContactPageContent() {
                   <div className="flex items-start gap-4">
                     <Mail className="w-5 h-5 text-gold mt-0.5" strokeWidth={1.5} />
                     <div>
-                      <p className="font-[family-name:var(--font-oswald)] text-xs tracking-wider text-white uppercase">
+                      <p className="font-heading text-xs tracking-wider text-white uppercase">
                         Email
                       </p>
                       <p className="text-xs text-silver-dark mt-1">[To Be Supplied]</p>

@@ -46,10 +46,10 @@ export default function ServicesPreview() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+          <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
             Our Divisions
           </span>
-          <h2 className="font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase">
             Comprehensive Solutions
           </h2>
           <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
@@ -66,13 +66,13 @@ export default function ServicesPreview() {
               className="group bg-graphite border border-graphite-light hover:border-gold/30 transition-all duration-300 p-8"
             >
               <div className="flex items-center gap-4 mb-6">
-                <span className="font-[family-name:var(--font-oswald)] text-3xl font-bold text-gold/20">
+                <span className="font-heading text-3xl font-bold text-gold/20">
                   {service.number}
                 </span>
                 <div className="w-px h-10 bg-gold/30" />
                 <service.icon className="w-8 h-8 text-gold" strokeWidth={1.5} />
               </div>
-              <h3 className="font-[family-name:var(--font-oswald)] text-xl tracking-wider text-white uppercase mb-4">
+              <h3 className="font-heading text-xl tracking-wider text-white uppercase mb-4">
                 {service.title}
               </h3>
               <p className="text-sm text-silver-dark leading-relaxed mb-6">

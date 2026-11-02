@@ -43,12 +43,12 @@ export default function FeaturedProjectsPreview() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="text-center mb-16"
         >
-          <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+          <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
             Portfolio
           </span>
-          <h2 className="font-[family-name:var(--font-oswald)] text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase">
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase">
             Featured Projects
           </h2>
           <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
@@ -91,10 +91,10 @@ export default function FeaturedProjectsPreview() {
               </div>
 
               <div className="p-6">
-                <span className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-gold uppercase">
+                <span className="font-heading text-[10px] tracking-[0.2em] text-gold uppercase">
                   {project.category}
                 </span>
-                <h3 className="font-[family-name:var(--font-oswald)] text-lg tracking-wider text-white uppercase mt-2 mb-3">
+                <h3 className="font-heading text-lg tracking-wider text-white uppercase mt-2 mb-3">
                   {project.title}
                 </h3>
                 <div className="flex items-center gap-2 text-xs text-silver-dark mb-2">

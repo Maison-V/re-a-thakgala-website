@@ -70,7 +70,7 @@ export default function ProjectsPageContent() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-24 md:pt-32 pb-16 md:pb-20 bg-obsidian relative overflow-hidden">
+      <section className="pt-32 md:pt-40 pb-16 md:pb-24 bg-obsidian relative overflow-hidden">
         <div className="absolute inset-0 engineering-grid opacity-30" />
         <Container className="relative z-10 text-center">
           <motion.div
@@ -78,10 +78,10 @@ export default function ProjectsPageContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="font-[family-name:var(--font-oswald)] text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
+            <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
               Portfolio
             </span>
-            <h1 className="font-[family-name:var(--font-oswald)] text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
+            <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl font-bold tracking-wide text-white uppercase">
               Our Projects
             </h1>
             <div className="mt-6 w-16 h-0.5 bg-gold mx-auto" />
@@ -136,10 +136,10 @@ export default function ProjectsPageContent() {
                     <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                   </div>
                   <div className="p-6">
-                    <span className="font-[family-name:var(--font-oswald)] text-[10px] tracking-[0.2em] text-gold uppercase">
+                    <span className="font-heading text-[10px] tracking-[0.2em] text-gold uppercase">
                       {project.category}
                     </span>
-                    <h3 className="font-[family-name:var(--font-oswald)] text-lg tracking-wider text-white uppercase mt-2 mb-3">
+                    <h3 className="font-heading text-lg tracking-wider text-white uppercase mt-2 mb-3">
                       {project.title}
                     </h3>
                     <div className="flex items-center gap-2 text-xs text-silver-dark mb-3">
