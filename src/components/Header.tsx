@@ -39,7 +39,7 @@ export default function Header() {
             <span className="font-heading text-xl sm:text-2xl font-bold tracking-[0.15em] text-white leading-snug">
               RE A THAKGALA
             </span>
-            <span className="font-heading text-[10px] sm:text-xs tracking-[0.3em] text-gold uppercase">
+            <span className="font-heading text-[0.625rem] sm:text-xs tracking-[0.3em] text-gold uppercase">
               Trading Enterprise
             </span>
           </Link>

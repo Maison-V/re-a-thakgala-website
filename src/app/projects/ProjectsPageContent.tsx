@@ -97,7 +97,7 @@ export default function ProjectsPageContent() {
               <button
                 key={c}
                 onClick={() => setActive(c)}
-                className={`px-5 py-2.5 text-[10px] tracking-[0.2em] uppercase border transition-all ${
+                className={`px-5 py-2.5 text-[0.625rem] tracking-[0.2em] uppercase border transition-all ${
                   active === c
                     ? "border-gold bg-gold text-obsidian font-semibold"
                     : "border-graphite-light text-silver-dark hover:border-gold hover:text-gold"
@@ -130,13 +130,13 @@ export default function ProjectsPageContent() {
                     <div className="absolute inset-0 flex items-center justify-center">
                       <Building2 className="w-12 h-12 text-gold/20" strokeWidth={1} />
                     </div>
-                    <div className="absolute top-4 right-4 px-3 py-1 bg-gold text-obsidian text-[10px] font-semibold tracking-wider uppercase">
+                    <div className="absolute top-4 right-4 px-3 py-1 bg-gold text-obsidian text-[0.625rem] font-semibold tracking-wider uppercase">
                       {project.status}
                     </div>
                     <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                   </div>
                   <div className="p-6">
-                    <span className="font-heading text-[10px] tracking-[0.2em] text-gold uppercase">
+                    <span className="font-heading text-[0.625rem] tracking-[0.2em] text-gold uppercase">
                       {project.category}
                     </span>
                     <h3 className="font-heading text-lg tracking-wider text-white uppercase mt-2 mb-3">
@@ -150,7 +150,7 @@ export default function ProjectsPageContent() {
                       {project.scope}
                     </p>
                     <div className="pt-4 border-t border-graphite-light">
-                      <span className="text-[10px] tracking-wider uppercase text-silver-dark">
+                      <span className="text-[0.625rem] tracking-wider uppercase text-silver-dark">
                         Client: {project.client}
                       </span>
                     </div>
