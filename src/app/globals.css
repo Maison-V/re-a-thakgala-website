@@ -11,7 +11,7 @@
   --color-gold-deep: #C58A00;
   --color-gold-dim: rgba(245, 184, 0, 0.1);
   --color-gold-border: rgba(245, 184, 0, 0.3);
-  --font-heading: var(--font-display-serif), "Source Serif 4", Georgia, serif;
+  --font-heading: var(--font-display), "Arial Narrow", Impact, sans-serif;
   --font-body: var(--font-inter), "Inter", system-ui, sans-serif;
 }
 
