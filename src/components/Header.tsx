@@ -36,7 +36,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex flex-col group">
-            <span className="font-heading text-xl sm:text-2xl font-bold tracking-[0.15em] text-white leading-tight">
+            <span className="font-heading text-xl sm:text-2xl font-bold tracking-[0.15em] text-white leading-snug">
               RE A THAKGALA
             </span>
             <span className="font-heading text-[10px] sm:text-xs tracking-[0.3em] text-gold uppercase">

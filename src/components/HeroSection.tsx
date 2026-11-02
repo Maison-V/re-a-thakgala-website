@@ -51,7 +51,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="font-heading text-xs sm:text-sm tracking-[0.4em] text-gold uppercase block mb-4"
+            className="font-heading text-xs sm:text-sm tracking-[0.3em] text-gold uppercase block mb-4"
           >
             Civil Engineering &middot; Construction &middot; Supply &amp; Trade
           </motion.span>
@@ -60,7 +60,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-[0.1em] text-white leading-[0.9]"
+            className="font-heading text-4xl sm:text-6xl md:text-7xl font-bold tracking-[0.04em] text-white leading-[1.1]"
           >
             RE A THAKGALA
           </motion.h1>
@@ -69,7 +69,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="font-heading text-lg sm:text-xl md:text-2xl tracking-[0.25em] text-gold mt-2"
+            className="font-heading text-lg sm:text-xl md:text-2xl tracking-[0.2em] text-gold mt-4"
           >
             TRADING ENTERPRISE
           </motion.h2>

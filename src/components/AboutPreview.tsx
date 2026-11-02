@@ -18,7 +18,7 @@ export default function AboutPreview() {
             <span className="font-heading text-xs tracking-[0.3em] text-gold uppercase mb-4 block">
               About Us
             </span>
-            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase leading-tight">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide text-white uppercase leading-snug">
               Engineering with Purpose.
               <br />
               <span className="text-gold">Construction with Precision.</span>
